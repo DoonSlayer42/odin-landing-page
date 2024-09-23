@@ -144,3 +144,15 @@ img {
 .dialogue-box .prompt .signup-button {
     border: 2px solid white;
 }
+
+#footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+}
+
+#footer .content {
+    padding: 20px;
+    color: white;
+}
