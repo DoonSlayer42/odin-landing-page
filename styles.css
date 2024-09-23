@@ -6,6 +6,7 @@
     background-color: #1f2937;
     color: #F9FAF8;
     display: flex;
+    gap: 60px;
     justify-content: space-between;
     padding: 20px 100px 20px 100px;
     align-items: center;
@@ -38,6 +39,12 @@ img {
     color: #E5E7EB;
 }
 
+.site-title .image {
+    height: 500px;
+    margin-top: 100px;
+    margin-bottom: 200px;
+}
+
 .signup-button {
     font-size: 30px;
     padding-left: 20px;
@@ -45,7 +52,95 @@ img {
     padding-top: 10px;
     padding-bottom: 10px;
     margin-top: 19px;
+    margin-bottom: 19px;
     background-color: #3882F6;
     color: white;
+    border-radius: 12%;
+    border: 0px;
+}
+
+.random-info {
+    padding: 40px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 20px;
+    flex-direction: column;
+}
+
+.random-info .images  {
+    display: flex;
+    padding: 40px;
+    gap: 30px;
+    flex-direction: row;
+}
+
+.image-number {
+    font-size: 24px;
+    display: flex;
+    flex-direction: column;
+}
+
+.image-number img {
+    border: 5px solid blue;
     border-radius: 15%;
+    height: 200px;
+    margin-bottom: 15px;
+}
+
+.random-info .text-part {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+}
+
+.inspirational-quote {
+    background-color: #E5E7EB;
+    padding: 100px;
+    display: flex;
+    flex-direction: column;
+}
+
+.inspirational-quote .quote{
+    font-size: 36px;
+    color: #1F2937;
+}
+
+.inspirational-quote .credit {
+    display: flex;
+    flex-direction: row-reverse;
+    font-weight: bold;
+    margin-top: 20px;
+    font-size: 25px;
+}
+
+img {
+    max-width: 100%;
+}
+
+.dialogue-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+}
+
+.dialogue-box .prompt {
+    display: flex;
+    background-color: #3882F6;
+    justify-content: space-around;
+    padding: 20px;
+    width: 75%;
+    gap: 30px;
+    font-size: 22px;
+    color: white;
+    align-items: center;
+}
+
+.main-message {
+    font-weight: 900;
+}
+
+.dialogue-box .prompt .signup-button {
+    border: 2px solid white;
 }
